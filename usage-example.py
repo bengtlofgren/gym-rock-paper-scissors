@@ -4,6 +4,7 @@ import gym_rock_paper_scissors
 env = gym.make('RockPaperScissors-v0')
 
 ob = env.reset()
+
 print("Initial observation {}\n".format(ob))
 for i in range(0, 10):
     random_action = env.action_space.sample()
